@@ -1,0 +1,185 @@
+.centrado {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.padding {
+      padding: 10px;
+
+}
+
+.sombreado-texto {
+      text-shadow: 1px 1px 2px rgb(230, 231, 235);
+}
+
+.sombreado {
+      box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.75);
+}
+
+.amarillo {
+      background-color: #f4ff00ed;
+      height: 35px;
+      font-family: anton;
+      font-size: 15px;
+      box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.75);
+      padding: 5px;
+}
+
+.letrablanca {
+      color: white;
+      font-family: plaifair display;
+}
+
+body {
+      margin: 0;
+      padding: 0;
+}
+
+.card {
+      height: 1000px;
+      width: 100vw;
+      
+}
+
+button {
+      height: 50px;
+      width: 400px;
+      background-color: #3ba5ff59;
+}
+
+.border {
+      border: 6px solid yellow;
+}
+
+.body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      font-size: 15px;
+      background-image: url(https://i.pinimg.com/474x/91/5b/4c/915b4c185226db8d87ae4f1a41ac614c.jpg);
+     font-family: plaifair display;
+}
+
+.tit-body {
+      font-family: qwitcher grypen;
+      justify-content: space-between;
+      font-size: 50px;
+      font-weight: bold;
+      background-image: url(./nadia.jpeg);
+      background-size: cover;
+      background-position: center;
+      height: 260px;
+      color: white;
+}
+.cont-card-mi-porfolio {
+      background-color: #326ec03d;
+}
+.header {
+
+      background-color: #326ec03d;
+}
+.nav {
+
+      background-color: #af51a752;
+}
+
+.cont-caja-conoc {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+.tit-conoc {
+      font-size: 12px;
+}
+
+.caja-conoc {
+      height: 70px;
+      width: 80px;
+      background-color: #5998bd9c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.cont-trabajo {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      color: white;
+      height: 150px;
+      width: 100%;
+}
+
+.img-trabajo {
+      height: 105px;
+      width: 100%;
+      box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.75);
+}
+
+.not-trabajo2 {
+
+      background-size: cover;
+      background-position: center;
+      height: 150px;
+      width: 50%;
+
+}
+
+.not-trabajo {
+      font-family: plaifair display;
+}
+
+.e-commer {
+      background-image: url(https://i.pinimg.com/564x/e7/34/c5/e734c5eff745d4fad36791a1ce80f80e.jpg);
+
+}
+
+.pagina-eventos {
+      background-image: url(https://i.pinimg.com/564x/71/14/b4/7114b41ff143abe4e9df001724c3e316.jpg);
+
+}
+
+.blog {
+      background-image: url(https://i.pinimg.com/564x/d4/69/78/d46978fcda043f0cb049a9f8a0eee272.jpg);
+
+}
+
+.todo-app {
+      background-image: url(https://i.pinimg.com/564x/54/d7/a2/54d7a26201e6a75f69ffdd0cb3d00351.jpg);
+
+}
+
+form {
+      margin: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+
+}
+
+.not-mi-contacto {
+      display: flex;
+      flex-direction: column;
+
+}
+
+.not-formulario {
+      font-size: 25px;
+     
+}
+
+.not-link {
+      text-decoration: none;
+      font-size: 15px;
+      padding: 10px;
+}
+
+
+input:hover {
+      height: 25px;
+      color: black;
+      background-color: yellow;
+}
