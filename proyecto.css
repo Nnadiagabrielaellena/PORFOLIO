@@ -47,8 +47,11 @@ button {
       height: 50px;
       width: 400px;
       background-color: #3ba5ff59;
-}
+}  
 
+button:hover{
+      background-color: yellow;
+}
 .border {
       border: 6px solid yellow;
 }
@@ -59,6 +62,7 @@ button {
       width: 100vw;
       font-size: 15px;
       background-image: url(https://i.pinimg.com/474x/91/5b/4c/915b4c185226db8d87ae4f1a41ac614c.jpg);
+      
      font-family: plaifair display;
 }
 
@@ -76,11 +80,11 @@ button {
 .cont-card-mi-porfolio {
       background-color: #326ec03d;
 }
-.header {
+header {
 
       background-color: #326ec03d;
 }
-.nav {
+nav {
 
       background-color: #af51a752;
 }
@@ -95,13 +99,11 @@ button {
       font-size: 12px;
 }
 
-.caja-conoc {
+.caja-conoc  {
       height: 70px;
       width: 80px;
       background-color: #5998bd9c;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      
 }
 
 .cont-trabajo {
@@ -162,7 +164,7 @@ form {
 
 .not-mi-contacto {
       display: flex;
-      flex-direction: column;
+      justify-content: space-around;
 
 }
 
@@ -179,7 +181,14 @@ form {
 
 
 input:hover {
-      height: 25px;
+      height: 35px;
       color: black;
       background-color: yellow;
+}
+.boton-mi-contacto{
+      font-size: 45px;
+      color: white;
+}
+.boton-mi-contacto:hover{
+      color:rgb(213, 47, 130);
 }
