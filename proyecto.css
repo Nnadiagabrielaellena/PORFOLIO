@@ -10,6 +10,10 @@
 
 }
 
+.border {
+      border: 6px solid yellow;
+}
+
 .sombreado-texto {
       text-shadow: 1px 1px 2px rgb(230, 231, 235);
 }
@@ -37,76 +41,81 @@ body {
       padding: 0;
 }
 
-.card {
+body .card {
       height: 1000px;
       width: 100vw;
-      
+
 }
 
-button {
+body nav button {
       height: 50px;
       width: 400px;
       background-color: #3ba5ff59;
-}  
-
-button:hover{
-      background-color: yellow;
-}
-.border {
-      border: 6px solid yellow;
 }
 
-.body {
-      margin: 0;
-      padding: 0;
+body nav button:hover {
+      border: 2px solid yellow;
+}
+
+
+
+
+body {
+
       width: 100vw;
       font-size: 15px;
       background-image: url(https://i.pinimg.com/474x/91/5b/4c/915b4c185226db8d87ae4f1a41ac614c.jpg);
-      
-     font-family: plaifair display;
+
+      font-family: Lora;
 }
 
-.tit-body {
-      font-family: qwitcher grypen;
+body .tit-body {
+      font-family: Playfair Display;
       justify-content: space-between;
-      font-size: 50px;
+      font-size: 40px;
       font-weight: bold;
       background-image: url(./nadia.jpeg);
       background-size: cover;
       background-position: center;
       height: 260px;
       color: white;
+      box-shadow: 30px 21px 30px -13px rgba(245, 245, 24, 1);
 }
-.cont-card-mi-porfolio {
+
+body .cont-card {
       background-color: #326ec03d;
 }
-header {
 
+body header {
       background-color: #326ec03d;
-}
-nav {
 
+}
+
+body nav {
       background-color: #af51a752;
 }
 
-.cont-caja-conoc {
+body header .cont-caja-conoc {
       display: flex;
+
       flex-wrap: wrap;
       justify-content: center;
 }
 
-.tit-conoc {
-      font-size: 12px;
-}
-
-.caja-conoc  {
-      height: 70px;
-      width: 80px;
+body header .cont-caja-conoc .caja-conoc {
+      height: 80px;
+      width: 90px;
       background-color: #5998bd9c;
-      
+
 }
 
-.cont-trabajo {
+body header .cont-caja-conoc .caja-conoc .tit-conoc {
+      font-size: 15px;
+}
+
+
+
+body main .cont-trabajo {
       margin-top: 10px;
       margin-bottom: 10px;
       display: flex;
@@ -115,14 +124,9 @@ nav {
       width: 100%;
 }
 
-.img-trabajo {
-      height: 105px;
-      width: 100%;
-      box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.75);
-}
 
-.not-trabajo2 {
 
+body main .not-trabajo2 {
       background-size: cover;
       background-position: center;
       height: 150px;
@@ -130,9 +134,7 @@ nav {
 
 }
 
-.not-trabajo {
-      font-family: plaifair display;
-}
+
 
 .e-commer {
       background-image: url(https://i.pinimg.com/564x/e7/34/c5/e734c5eff745d4fad36791a1ce80f80e.jpg);
@@ -162,33 +164,44 @@ form {
 
 }
 
-.not-mi-contacto {
+body footer .not-mi-contacto {
       display: flex;
       justify-content: space-around;
 
 }
 
-.not-formulario {
+body footer .not-mi-contacto .boton-mi-contacto {
+      font-size: 35px;
+      color: white;
+}
+
+body footer .not-formulario {
       font-size: 25px;
-     
-}
 
-.not-link {
-      text-decoration: none;
-      font-size: 15px;
-      padding: 10px;
 }
 
 
-input:hover {
-      height: 35px;
+
+
+body footer input:hover {
+      height: 25px;
       color: black;
       background-color: yellow;
 }
-.boton-mi-contacto{
-      font-size: 45px;
-      color: white;
+
+
+
+body footer .boton-mi-contacto:hover {
+      color: #9428bb9c;
 }
-.boton-mi-contacto:hover{
-      color:rgb(213, 47, 130);
+
+label {
+      padding: 10px;
+}
+
+textarea {
+      background-image: url(https://i.pinimg.com/474x/91/5b/4c/915b4c185226db8d87ae4f1a41ac614c.jpg);
+      color: yellow;
+      font-family: plaifair display;
+      padding: 10px;
 }
