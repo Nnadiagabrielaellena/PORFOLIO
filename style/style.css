@@ -65,8 +65,7 @@ body {
       width: 100vw;
       font-size: 15px;
       background-image: url(https://i.pinimg.com/474x/91/5b/4c/915b4c185226db8d87ae4f1a41ac614c.jpg);
-
-      font-family: Lora;
+font-family: Lora;
 }
 
 body .tit-body {
@@ -74,42 +73,42 @@ body .tit-body {
       justify-content: space-between;
       font-size: 40px;
       font-weight: bold;
-      background-image: url(./nadia.jpeg);
+      background-image: url(nadia.jpeg);
       background-size: cover;
       background-position: center;
       height: 260px;
       color: white;
       box-shadow: 30px 21px 30px -13px rgba(245, 245, 24, 1);
+      text-shadow: 1px 1px 2px rgb(230, 231, 235);
 }
 
 body .cont-card {
       background-color: #326ec03d;
 }
 
-body header {
-      background-color: #326ec03d;
 
-}
 
 body nav {
       background-color: #af51a752;
 }
 
-body header .cont-caja-conoc {
+body main .cont-caja-conoc {
       display: flex;
 
       flex-wrap: wrap;
       justify-content: center;
+      
+     
 }
 
-body header .cont-caja-conoc .caja-conoc {
+body main .cont-caja-conoc .caja-conoc {
       height: 80px;
       width: 90px;
       background-color: #5998bd9c;
 
 }
 
-body header .cont-caja-conoc .caja-conoc .tit-conoc {
+body main .cont-caja-conoc .caja-conoc .tit-conoc {
       font-size: 15px;
 }
 
@@ -122,6 +121,7 @@ body main .cont-trabajo {
       color: white;
       height: 150px;
       width: 100%;
+      box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.75);
 }
 
 
@@ -197,6 +197,8 @@ body footer .boton-mi-contacto:hover {
 
 label {
       padding: 10px;
+      color: white;
+      font-family: plaifair display;
 }
 
 textarea {
