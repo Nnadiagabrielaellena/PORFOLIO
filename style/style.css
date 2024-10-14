@@ -5,36 +5,8 @@
       align-items: center;
 }
 
-.padding {
-      padding: 10px;
 
-}
 
-.border {
-      border: 6px solid yellow;
-}
-
-.sombreado-texto {
-      text-shadow: 1px 1px 2px rgb(230, 231, 235);
-}
-
-.sombreado {
-      box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.75);
-}
-
-.amarillo {
-      background-color: #f4ff00ed;
-      height: 35px;
-      font-family: anton;
-      font-size: 15px;
-      box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.75);
-      padding: 5px;
-}
-
-.letrablanca {
-      color: white;
-      font-family: plaifair display;
-}
 
 body {
       margin: 0;
@@ -50,15 +22,14 @@ h1 {
 
 h3 {
       color: white;
-      font-size: 12px;
+      font-size: 15px;
+      padding: 20px;
 }
 
-.cont-card {
-      height: 800px;
-}
+
 
 span {
-
+padding: 20px;
       font-family: Spicy Rice;
       color: yellow;
       font-size: 30px;
@@ -76,15 +47,12 @@ body nav button {
       color: white;
 }
 
-
-
-
 body nav button:hover {
       border: 4px solid yellow;
 }
 
 body {
-
+padding: 20px;
       width: 100vw;
       font-size: 15px;
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
@@ -101,25 +69,30 @@ body .cont-body {
 }
 
 body header .tit-body {
+      padding: 10px;
       background-image: url(./nadia.jpeg);
+      filter: grayscale(100%);
       background-size: cover;
       height: 260px;
       max-width: 80%;
       margin: auto;
       box-shadow: 19px 23px 188px 43px rgba(29, 3, 99, 1);
       font-family: Spicy Rice;
+      
 }
-
+.not-body{
+      margin-top: 70px;
+}
 body .cont-card {
       background-color: #326ec03d;
+margin-top: 60px;
 }
 
 body main .cont-caja-conoc {
+      
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-
-
 }
 
 body main .cont-caja-conoc .caja-conoc {
@@ -148,7 +121,7 @@ body main .cont-trabajo {
 
 
 
-body main .not-trabajo2 {
+body main .not-trabajo {
       background-size: cover;
       background-position: center;
       height: 150px;
@@ -159,12 +132,12 @@ body main .not-trabajo2 {
 
 .e-commer {
       background-image: url(https://i.pinimg.com/564x/e7/34/c5/e734c5eff745d4fad36791a1ce80f80e.jpg);
-
+      border: 6px solid yellow;
 }
 
 .pagina-eventos {
       background-image: url(https://i.pinimg.com/564x/71/14/b4/7114b41ff143abe4e9df001724c3e316.jpg);
-
+     
 }
 
 .blog {
@@ -175,6 +148,7 @@ body main .not-trabajo2 {
 .todo-app {
       background-image: url(https://i.pinimg.com/564x/54/d7/a2/54d7a26201e6a75f69ffdd0cb3d00351.jpg);
       padding: 10px;
+      border: 6px solid yellow;
 }
 
 form {
@@ -198,6 +172,7 @@ body footer .not-contacto .boton-contacto {
 }
 
 body footer .not-formulario {
+      margin-top: 50px;
       font-size: 25px;
       color: white;
 
