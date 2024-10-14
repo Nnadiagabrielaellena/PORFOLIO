@@ -39,11 +39,18 @@
 body {
       margin: 0;
       padding: 0;
+
 }
-h1{
+
+h1 {
       font-size: 45px;
       color: white;
-      text-shadow: 2px 4px 2px rgba(0,0,0,0.67);
+      text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.67);
+}
+
+h3 {
+      color: white;
+      font-size: 12px;
 }
 
 .cont-card {
@@ -51,9 +58,10 @@ h1{
 }
 
 span {
-      font-family: Shadows Into Light;
-      color: rgb(211 201 49);
-      font-size: 25px;
+
+      font-family: Spicy Rice;
+      color: yellow;
+      font-size: 30px;
       font-weight: bold;
       padding-top: 20px;
       text-shadow: 2px 4px 2px rgb(0 0 0);
@@ -64,10 +72,10 @@ body nav button {
       width: 400px;
       background-image: url(https://i.pinimg.com/564x/0b/07/2f/0b072f4315c08b61b855d2557d559100.jpg);
       font-size: 13px;
-      
+
       color: white;
-  }
-     
+}
+
 
 
 
@@ -79,7 +87,7 @@ body {
 
       width: 100vw;
       font-size: 15px;
-      background-image: url(https://i.pinimg.com/474x/91/5b/4c/915b4c185226db8d87ae4f1a41ac614c.jpg);
+      background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
       font-family: Lora;
 }
 
@@ -97,23 +105,17 @@ body header .tit-body {
       background-size: cover;
       height: 260px;
       max-width: 80%;
-
       margin: auto;
       box-shadow: 19px 23px 188px 43px rgba(29, 3, 99, 1);
-
+      font-family: Spicy Rice;
 }
 
 body .cont-card {
       background-color: #326ec03d;
 }
 
-
-
-
-
 body main .cont-caja-conoc {
       display: flex;
-
       flex-wrap: wrap;
       justify-content: center;
 
@@ -121,7 +123,7 @@ body main .cont-caja-conoc {
 }
 
 body main .cont-caja-conoc .caja-conoc {
-      height: 80px;
+      height: 100px;
       width: 90px;
       background-color: #161918;
       color: white;
@@ -131,16 +133,12 @@ body main .cont-caja-conoc .caja-conoc {
       align-items: center;
 }
 
-body main .cont-caja-conoc .caja-conoc .tit-conoc,
-centrado {
+body main .cont-caja-conoc .caja-conoc .tit-conoc {
       font-size: 15px;
 }
 
-
-
 body main .cont-trabajo {
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin: 10px;
       display: flex;
       color: white;
       height: 150px;
@@ -155,6 +153,7 @@ body main .not-trabajo2 {
       background-position: center;
       height: 150px;
       width: 50%;
+
 
 }
 
@@ -183,23 +182,24 @@ form {
       display: flex;
       flex-direction: column;
       align-items: end;
-     
+
 
 }
 
-body footer .not-mi-contacto {
+body footer .not-contacto {
       display: flex;
       justify-content: space-around;
 
 }
 
-body footer .not-mi-contacto .boton-mi-contacto {
+body footer .not-contacto .boton-contacto {
       font-size: 35px;
       color: white;
 }
 
 body footer .not-formulario {
       font-size: 25px;
+      color: white;
 
 }
 
@@ -211,7 +211,7 @@ body footer input:hover {
 
 
 
-body footer .boton-mi-contacto:hover {
+body footer .boton-contacto:hover {
       color: #9428bb9c;
 }
 
