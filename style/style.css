@@ -40,46 +40,67 @@ body {
       margin: 0;
       padding: 0;
 }
+h1{
+      font-size: 45px;
+      color: white;
+      text-shadow: 2px 4px 2px rgba(0,0,0,0.67);
+}
 
-body .card {
-      height: 1000px;
-      width: 100vw;
+.cont-card {
+      height: 800px;
+}
 
+span {
+      font-family: Shadows Into Light;
+      color: rgb(211 201 49);
+      font-size: 25px;
+      font-weight: bold;
+      padding-top: 20px;
+      text-shadow: 2px 4px 2px rgb(0 0 0);
 }
 
 body nav button {
       height: 50px;
       width: 400px;
-      background-color: #3ba5ff59;
-}
+      background-image: url(https://i.pinimg.com/564x/0b/07/2f/0b072f4315c08b61b855d2557d559100.jpg);
+      font-size: 13px;
+      
+      color: white;
+  }
+     
+
+
 
 body nav button:hover {
-      border: 2px solid yellow;
+      border: 4px solid yellow;
 }
-
-
-
 
 body {
 
       width: 100vw;
       font-size: 15px;
       background-image: url(https://i.pinimg.com/474x/91/5b/4c/915b4c185226db8d87ae4f1a41ac614c.jpg);
-font-family: Lora;
+      font-family: Lora;
 }
 
-body .tit-body {
+body .cont-body {
       font-family: Playfair Display;
-      justify-content: space-between;
-      font-size: 40px;
+      align-items: center;
+      font-size: 10px;
       font-weight: bold;
-      background-image: url(nadia.jpeg);
+      color: rgb(8, 8, 8);
+
+}
+
+body header .tit-body {
+      background-image: url(./nadia.jpeg);
       background-size: cover;
-      background-position: center;
       height: 260px;
-      color: white;
-      box-shadow: 30px 21px 30px -13px rgba(245, 245, 24, 1);
-      text-shadow: 1px 1px 2px rgb(230, 231, 235);
+      max-width: 80%;
+
+      margin: auto;
+      box-shadow: 19px 23px 188px 43px rgba(29, 3, 99, 1);
+
 }
 
 body .cont-card {
@@ -88,27 +109,30 @@ body .cont-card {
 
 
 
-body nav {
-      background-color: #af51a752;
-}
+
 
 body main .cont-caja-conoc {
       display: flex;
 
       flex-wrap: wrap;
       justify-content: center;
-      
-     
+
+
 }
 
 body main .cont-caja-conoc .caja-conoc {
       height: 80px;
       width: 90px;
-      background-color: #5998bd9c;
-
+      background-color: #161918;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 }
 
-body main .cont-caja-conoc .caja-conoc .tit-conoc {
+body main .cont-caja-conoc .caja-conoc .tit-conoc,
+centrado {
       font-size: 15px;
 }
 
@@ -134,8 +158,6 @@ body main .not-trabajo2 {
 
 }
 
-
-
 .e-commer {
       background-image: url(https://i.pinimg.com/564x/e7/34/c5/e734c5eff745d4fad36791a1ce80f80e.jpg);
 
@@ -153,7 +175,7 @@ body main .not-trabajo2 {
 
 .todo-app {
       background-image: url(https://i.pinimg.com/564x/54/d7/a2/54d7a26201e6a75f69ffdd0cb3d00351.jpg);
-
+      padding: 10px;
 }
 
 form {
@@ -161,6 +183,7 @@ form {
       display: flex;
       flex-direction: column;
       align-items: end;
+     
 
 }
 
@@ -179,9 +202,6 @@ body footer .not-formulario {
       font-size: 25px;
 
 }
-
-
-
 
 body footer input:hover {
       height: 25px;
