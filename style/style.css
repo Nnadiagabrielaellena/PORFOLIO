@@ -58,7 +58,7 @@ padding: 20px;
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
       font-family: Lora;
 }
-
+ 
 body .cont-body {
       font-family: Playfair Display;
       align-items: center;
@@ -201,4 +201,12 @@ textarea {
       color: yellow;
       font-family: plaifair display;
       padding: 10px;
+}
+@media(min-whidth:376px){
+      .tit-body{
+            
+            height: 260px;
+      width: 80px;
+
+      }
 }
