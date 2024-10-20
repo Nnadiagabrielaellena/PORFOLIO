@@ -11,11 +11,11 @@
 
 
 body {
-      padding: 20px;
+
       width: 100vw;
       font-size: 15px;
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
-      
+
       font-family: Lora;
 
 }
@@ -37,11 +37,20 @@ body .cont-header {
       position: relative;
       width: 90%;
       height: 90%;
-      top: -200px;
+      top: -400px;
       z-index: 0;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+}
+.img-header-fondo{
+      height: 300px;
+      width: 300px;
+      position: relative;
+      left: 800px;
+      top: -400px;
+      display: none;
+      
 }
 
 
@@ -56,24 +65,19 @@ h1 {
 
 h3 {
       position: relative;
-      top: -1100px;
+      top: 3px;
       color: white;
       font-size: 15px;
       padding: 20px;
-      
+
       z-index: 4;
 }
 
-
-
-
-
 body nav button {
       height: 50px;
-      width: 400px;
+      width: 100%;
       background-image: url(https://i.pinimg.com/564x/0b/07/2f/0b072f4315c08b61b855d2557d559100.jpg);
       font-size: 13px;
-
       color: white;
 }
 
@@ -93,38 +97,11 @@ span {
       z-index: 3;
 }
 
-.franja {
 
+.not-header {
       position: relative;
-      top: -305px;
-      left: 20px;
-      background-color: rgb(241 241 35 / 51%);
-      height: 500px;
-      width: 100px;
-      z-index: 4;
+      top: 25px;
 }
-
-.franja-chica {
-      position: relative;
-      top: -1005px;
-      left: 150px;
-      background-color: rgb(241 241 35 / 60%);
-      height: 500px;
-      width: 50px;
-      z-index: 4;
-
-}
-
-h3 {
-      position: relative;
-}
-
-
-
-
-
-
-
 
 body main .cont-caja-conoc {
 
@@ -149,15 +126,13 @@ body main .cont-caja-conoc .caja-conoc .tit-conoc {
 }
 
 body main .cont-trabajo {
-      margin: 10px;
+
       display: flex;
       color: white;
       height: 150px;
       width: 100%;
       box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.75);
 }
-
-
 
 body main .not-trabajo {
       background-size: cover;
@@ -240,19 +215,8 @@ textarea {
       font-family: plaifair display;
       padding: 10px;
 }
-
-@media (max-width: 320px) {
-      .img-header {
-        
-      }
-}
-@media (max-width: 768px) {
-      .img-header {
-           
-      }
-}
-@media (max-width: 1024px) {
-      .img-header {
-        
+@media (min-width: 768px){
+      .img-header-fondo{
+            display: block;
       }
 }
