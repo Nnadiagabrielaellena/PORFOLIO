@@ -8,35 +8,65 @@
 
 
 
+
+
 body {
-      margin: 0;
-      padding: 0;
+      padding: 20px;
+      width: 100vw;
+      font-size: 15px;
+      background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
+      
+      font-family: Lora;
 
 }
 
+
+
+
+body .cont-header {
+
+      font-family: Playfair Display;
+      align-items: center;
+      font-size: 10px;
+      font-weight: bold;
+      color: rgb(8, 8, 8);
+
+}
+
+.img-header {
+      position: relative;
+      width: 90%;
+      height: 90%;
+      top: -200px;
+      z-index: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+
+
 h1 {
+      position: relative;
+      z-index: 5;
       font-size: 45px;
       color: white;
       text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.67);
 }
 
 h3 {
+      position: relative;
+      top: -1100px;
       color: white;
       font-size: 15px;
       padding: 20px;
+      
+      z-index: 4;
 }
 
 
 
-span {
-padding: 20px;
-      font-family: Spicy Rice;
-      color: yellow;
-      font-size: 30px;
-      font-weight: bold;
-      padding-top: 20px;
-      text-shadow: 2px 4px 2px rgb(0 0 0);
-}
+
 
 body nav button {
       height: 50px;
@@ -51,45 +81,53 @@ body nav button:hover {
       border: 4px solid yellow;
 }
 
-body {
-padding: 20px;
-      width: 100vw;
-      font-size: 15px;
-      background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
-      font-family: Lora;
-}
- 
-body .cont-body {
-      font-family: Playfair Display;
-      align-items: center;
-      font-size: 10px;
-      font-weight: bold;
-      color: rgb(8, 8, 8);
+span {
 
-}
-
-body header .tit-body {
-      padding: 10px;
-      background-image: url(./nadia.jpeg);
-      filter: grayscale(100%);
-      background-size: cover;
-      height: 260px;
-      max-width: 80%;
-      margin: auto;
-      box-shadow: 19px 23px 188px 43px rgba(29, 3, 99, 1);
+      padding: 20px;
       font-family: Spicy Rice;
-      
+      color: yellow;
+      font-size: 30px;
+      font-weight: bold;
+      padding-top: 20px;
+      text-shadow: 2px 4px 2px rgb(0 0 0);
+      z-index: 3;
 }
-.not-body{
-      margin-top: 70px;
+
+.franja {
+
+      position: relative;
+      top: -305px;
+      left: 20px;
+      background-color: rgb(241 241 35 / 51%);
+      height: 500px;
+      width: 100px;
+      z-index: 4;
 }
-body .cont-card {
-      background-color: #326ec03d;
-margin-top: 60px;
+
+.franja-chica {
+      position: relative;
+      top: -1005px;
+      left: 150px;
+      background-color: rgb(241 241 35 / 60%);
+      height: 500px;
+      width: 50px;
+      z-index: 4;
+
 }
+
+h3 {
+      position: relative;
+}
+
+
+
+
+
+
+
 
 body main .cont-caja-conoc {
-      
+
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -137,7 +175,7 @@ body main .not-trabajo {
 
 .pagina-eventos {
       background-image: url(https://i.pinimg.com/564x/71/14/b4/7114b41ff143abe4e9df001724c3e316.jpg);
-     
+
 }
 
 .blog {
@@ -202,11 +240,19 @@ textarea {
       font-family: plaifair display;
       padding: 10px;
 }
-@media(min-whidth:376px){
-      .tit-body{
-            
-            height: 260px;
-      width: 80px;
 
+@media (max-width: 320px) {
+      .img-header {
+        
+      }
+}
+@media (max-width: 768px) {
+      .img-header {
+           
+      }
+}
+@media (max-width: 1024px) {
+      .img-header {
+        
       }
 }
