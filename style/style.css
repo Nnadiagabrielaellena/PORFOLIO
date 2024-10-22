@@ -1,3 +1,7 @@
+html {
+      scroll-behavior: smooth;
+}
+
 .centrado {
       display: flex;
       flex-direction: column;
@@ -8,7 +12,7 @@
 body {
 
       width: 100vw;
-      font-size: 15px;
+      font-size: 0.8rem;
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
       font-family: Lora;
 
@@ -18,7 +22,7 @@ body header .cont-header {
 
       font-family: Playfair Display;
       align-items: center;
-      font-size: 10px;
+      font-size: 1rem;
       font-weight: bold;
       color: rgb(8, 8, 8);
 
@@ -31,16 +35,16 @@ body header .cont-img-header {
 }
 
 body header.cont-img-header .img-header {
-      height: 300px;
-      width: 300px;
+      height: 19rem;
+      width: 19rem;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
 }
 
 .img-logo {
-      height: 300px;
-      width: 300px;
+      height: 19rem;
+      width: 19rem;
       display: none;
 }
 
@@ -49,7 +53,7 @@ body header.cont-img-header .img-header {
 body header h1 {
       position: relative;
       z-index: 5;
-      font-size: 45px;
+      font-size: 2rem;
       color: white;
       text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.67);
 }
@@ -58,16 +62,16 @@ body header h3 {
       position: relative;
       top: 3px;
       color: white;
-      font-size: 15px;
-      padding: 20px;
+      font-size: 1.2rem;
+      padding: 0.8rem;
       z-index: 4;
 }
 
 body nav button {
-      height: 50px;
+      height: 3rem;
       width: 100%;
       background-image: url(https://i.pinimg.com/564x/0b/07/2f/0b072f4315c08b61b855d2557d559100.jpg);
-      font-size: 13px;
+      font-size: 1rem;
       color: white;
 }
 
@@ -76,12 +80,12 @@ body nav button:hover {
 }
 
 h2 {
-      padding: 20px;
+
       font-family: Spicy Rice;
       color: yellow;
-      font-size: 30px;
+      font-size: 1.8rem;
       font-weight: bold;
-      padding-top: 20px;
+      padding-top: 1.25rem;
       text-shadow: 2px 4px 2px rgb(0 0 0);
       z-index: 3;
 }
@@ -89,7 +93,7 @@ h2 {
 
 .not-header {
       position: relative;
-      top: 25px;
+      top: 1, 56rem;
 }
 
 body main .cont-caja-conoc {
@@ -97,13 +101,13 @@ body main .cont-caja-conoc {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin-top: 40px;
-      margin-bottom: 40px;
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
 }
 
 body main .cont-caja-conoc .caja-conoc {
-      height: 100px;
-      width: 100px;
+      height: 6.25rem;
+      width: 6.25rem;
       background-color: #161918;
       color: white;
       display: flex;
@@ -113,16 +117,16 @@ body main .cont-caja-conoc .caja-conoc {
 }
 
 body main .cont-caja-conoc .caja-conoc .tit-conoc {
-      font-size: 15px;
+      font-size: 0.93rem;
 }
 
 body main .cont-trabajo {
 
       display: flex;
-      margin-top: 30px;
-      margin-bottom: 30px;
+      margin-top: 1.87rem;
+      margin-bottom: 1.87rem;
       color: white;
-      height: 150px;
+      height: 9.37rem;
       width: 100%;
       box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.75);
 }
@@ -130,7 +134,7 @@ body main .cont-trabajo {
 body main .not-trabajo {
       background-size: cover;
       background-position: center;
-      height: 150px;
+      height: 9.37rem;
       width: 50%;
 }
 
@@ -151,12 +155,12 @@ body main .not-trabajo {
 
 .todo-app {
       background-image: url(./img/img-todo-app.jpg);
-      padding: 10px;
+
       border: 6px solid yellow;
 }
 
 form {
-      margin: 30px;
+      margin: 1, 87rem;
       display: flex;
       flex-direction: column;
       align-items: end;
@@ -171,19 +175,19 @@ body footer .not-contacto {
 }
 
 body footer .not-contacto .boton-contacto {
-      font-size: 35px;
+      font-size: 2, 18rem;
       color: white;
 }
 
 body footer .not-formulario {
-      margin-top: 50px;
-      font-size: 25px;
+      margin-top: 3, 12rem;
+      font-size: 1, 56rem;
       color: white;
 
 }
 
 body footer input:hover {
-      height: 25px;
+      height: 1, 56rem;
       color: black;
       background-color: yellow;
 }
@@ -195,7 +199,7 @@ body footer .boton-contacto:hover {
 }
 
 label {
-      padding: 10px;
+      padding: 0.62rem;
       color: white;
       font-family: plaifair display;
 }
@@ -204,28 +208,39 @@ textarea {
       background-image: url(https://i.pinimg.com/474x/91/5b/4c/915b4c185226db8d87ae4f1a41ac614c.jpg);
       color: yellow;
       font-family: plaifair display;
-      padding: 10px;
+      padding: 0.62rem;
 }
 
 @media (min-width: 768px) {
+      body {
+            font-size: 1rem;
+      }
+
       .img-logo {
             display: block;
-            height: 300px;
-            width: 300px;
+            height: 20rem;
+            width: 20rem;
       }
 
       h3 {
-            font-size: 20px;
+            font-size: 1, 25rem;
 
       }
 
       .caja-conoc {
-            height: 150px;
-            width: 110px;
-            font-size: 20px;
+            height: 9, 38rem;
+            width: 9, 38rem;
+            font-size: 1, 25rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-margin: 10px;
+            
+      }
+}
+
+@media (min-width: 1024px) {
+      h3 {
+            font-size: 40px;
+
       }
 }
