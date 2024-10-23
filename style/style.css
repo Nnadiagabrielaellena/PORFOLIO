@@ -174,7 +174,12 @@ body main .not-trabajo {
 
       border: 6px solid yellow;
 }
-
+.maquetacion{
+      background-image: url(./img/maquetacion.jpg)
+}
+.responsive{
+      background-image: url(./img/responsive.jpg);
+}
 /*--FOOTER- BOTONES-CONTACTO ------- -*/
 
 
