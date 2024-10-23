@@ -8,6 +8,7 @@ html {
       justify-content: center;
       align-items: center;
 }
+
 /*-HEADER  ENCABEZADO---*/
 body {
 
@@ -15,6 +16,7 @@ body {
       font-size: 0.8rem;
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
       font-family: Lora;
+      text-transform: capitalize;
 
 }
 
@@ -47,7 +49,10 @@ body header.cont-img-header .img-header {
       width: 19rem;
       display: none;
 }
-
+.not-header{
+      color: yellow;
+      z-index: 6;
+}
 
 
 body header h1 {
@@ -65,7 +70,9 @@ body header h3 {
       font-size: 1rem;
       padding: 0.8rem;
       z-index: 4;
+      text-transform: none;
 }
+
 /*-NAV-BOTONES---*/
 body nav button {
       height: 3rem;
@@ -73,16 +80,16 @@ body nav button {
       background-image: url(https://i.pinimg.com/564x/0b/07/2f/0b072f4315c08b61b855d2557d559100.jpg);
       font-size: 1rem;
       color: white;
-      
+      text-transform: capitalize;
+
 }
 
 body nav button:hover {
       border: 4px solid yellow;
-      
+
 }
 
 h2 {
-
       font-family: Spicy Rice;
       color: yellow;
       font-size: 1.8rem;
@@ -92,11 +99,16 @@ h2 {
       z-index: 3;
 }
 
+i {
+      font-size: 1.3rem;
+}
+
 
 .not-header {
       position: relative;
       top: 1, 56rem;
 }
+
 /*-MAIN CAJA CONOCIMIENTOS----------*/
 body main .cont-caja-conoc {
 
@@ -116,12 +128,13 @@ body main .cont-caja-conoc .caja-conoc {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      
+
 }
 
 body main .cont-caja-conoc .caja-conoc .tit-conoc {
       font-size: 1rem;
 }
+
 /*-MAIN CAJA TRABAJO----------*/
 body main .cont-trabajo {
 
@@ -161,6 +174,7 @@ body main .not-trabajo {
 
       border: 6px solid yellow;
 }
+
 /*--FOOTER- BOTONES-CONTACTO ------- -*/
 
 
@@ -174,6 +188,7 @@ body footer .not-contacto .boton-contacto {
       font-size: 1.8rem;
       color: white;
 }
+
 /*--FOOTER- FORMULARIO------- -*/
 form {
       margin: 1, 87rem;
@@ -183,6 +198,10 @@ form {
 
 
 }
+.not-form{
+      text-transform: none;
+}
+
 body footer .not-formulario {
       margin-top: 3, 12rem;
       font-size: 1, 56rem;
@@ -195,12 +214,13 @@ body footer input:hover {
       color: black;
       background-color: yellow;
 }
+
 body footer .boton-contacto:hover {
       color: #9428bb9c;
-      
+
 }
 
-label {
+body footer form label {
       padding: 0.62rem;
       color: white;
       font-family: plaifair display;
@@ -212,18 +232,15 @@ textarea {
       font-family: plaifair display;
       padding: 0.62rem;
 }
+
 /*-----------MEDIA-C------*/
 @media (min-width: 768px) {
       body {
-            font-size: 1rem;
+            font-size: 0, 9rem;
       }
+
       body nav button {
-            
-           
-           
-            font-size: 1.5rem;
-            
-            
+            font-size: 1.3rem;
       }
 
       .img-logo {
@@ -236,21 +253,35 @@ textarea {
             font-size: 1, 25rem;
 
       }
-
-      .caja-conoc {
-            height: 9, 38rem;
-            width: 9, 38rem;
-            font-size: 1, 25rem;
+      i {
+            font-size: 2rem;
+      }
+      body main .cont-caja-conoc {
             display: flex;
-            flex-direction: column;
             justify-content: space-between;
-            
+      }
+
+      body main .cont-caja-conoc .caja-conoc {
+            height: 7.25rem;
+            width: 7.25rem;
+
+
+      }
+      body footer form label {
+            font-size: 1.2rem;
       }
 }
 
-@media (min-width: 1024px) {
-      h3 {
-            font-size: 40px;
+      @media (min-width: 1024px) {
 
+            body main .cont-caja-conoc .caja-conoc {
+                  height: 8.25rem;
+                  width: 8.25rem;
+
+            }
+
+
+            body main .cont-caja-conoc .caja-conoc .tit-conoc {
+                  font-size: 1.5rem;
+            }
       }
-}
