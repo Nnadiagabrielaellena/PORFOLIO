@@ -11,6 +11,7 @@ html {
 body {
 margin: 0;
 padding: 0;
+margin-top: 2rem;
       width: 100vw;
       font-size: 0.8rem;
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
@@ -50,7 +51,7 @@ body header.cont-img-header .img-header {
       display: none;
       box-shadow: 8px 11px 43px 27px rgba(0,0,0,0.6) inset;
 }
-.programar-violeta{
+.img-header2{
       height: 19rem;
       width: 19rem;
       display: none;
@@ -324,10 +325,11 @@ body footer form textarea {
 
 /*-----------MEDIA-DESCKTOP------*/
 @media (min-width: 1024px) {
-      .programar-violeta{
+      .img-header2{
             display: block;
             height: 20rem;
             width: 20rem;
+            background-size: cover;
       }
       body main .cont-caja-conoc .caja-conoc {
             height: 8.25rem;
