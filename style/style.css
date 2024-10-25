@@ -220,7 +220,7 @@ body footer form {
 }
 
 body footer .not-formulario {
-      font-size: 1.5rem;
+      font-size: 1rem;
       color: white;
       text-transform: none;
       margin-top: 2rem;
@@ -340,6 +340,9 @@ body footer form .boton-enviar:hover {
 
       body footer .not-contacto i {
             font-size: 3rem;
+      }
+      body footer .not-formulario{
+            font-size: 2rem;
       }
 
       body footer form label {
