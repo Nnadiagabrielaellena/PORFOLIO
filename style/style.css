@@ -15,27 +15,24 @@ margin-top: 2rem;
       width: 100vw;
       font-size: 0.8rem;
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
-      font-family: Lora;
+      font-family: Lato;
       text-transform: capitalize;
 
 }
 
 body header .cont-header {
-
-      font-family: Playfair Display;
+font-family: Playfair Display;
       align-items: center;
       font-size: 1rem;
       font-weight: bold;
       color: rgb(8, 8, 8);
       position: relative;
-
-}
+      }
 
 body header .cont-img-header {
       display: flex;
       justify-content: space-around;
       
-
 }
 
 body header.cont-img-header .img-header {
@@ -44,7 +41,8 @@ body header.cont-img-header .img-header {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-     }
+      
+}
 .img-logo {
       height: 19rem;
       width: 19rem;
@@ -64,24 +62,25 @@ body header .cont-header .not-header {
       font-size: 1.3rem;
       z-index: 6;
       position: absolute;
-      top: 250px;
-      left: 100px;
+      top: 16.75rem;
+      left: 6.25rem;
 }
 
 
 body header h1 {
       position: absolute;
-      left: 50px;
-      top: 10px;
+      left: 90px;
+      top: 20px;
       z-index: 5;
-      font-size: 2.5rem;
+      font-size: 1.5rem;
       color: white;
       text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.67);
 }
 
 body header h3 {
-      position: relative;
-      top: 3px;
+      
+      top: 2px;
+      
       color: white;
       font-size: 1rem;
       z-index: 4;
@@ -196,6 +195,7 @@ body main .cont-trabajo .responsive {
       background-image: url(./img/responsive.jpg);
       border: 6px solid yellow;
       background-size: cover;
+
 }
 
 /*--FOOTER- BOTONES-CONTACTO ------- -*/
@@ -204,12 +204,20 @@ body main .cont-trabajo .responsive {
 body footer .not-contacto {
       display: flex;
       justify-content: space-around;
+      
+
 
 }
 
 body footer .not-contacto .boton-contacto {
       font-size: 1.8rem;
       color: white;
+      
+}
+body footer .boton-contacto:hover {
+      color: #9428bb9c;
+      transform: scale(1.2);
+      
 }
 
 body footer form .boton-enviar{
@@ -225,6 +233,7 @@ body footer form .boton-enviar{
 body footer form .boton-enviar:hover{
       background-color: darkgrey;
       font-weight: bold;
+      
       
 
 }
@@ -244,6 +253,7 @@ body footer .not-formulario {
       text-transform: none;
       margin-top: 2rem;
       margin-bottom: 2rem;
+      text-transform: capitalize;
 
 }
 body footer input:hover {
@@ -253,9 +263,7 @@ body footer input:hover {
       transition: all ease-in-out 0.5;
 }
 
-body footer .boton-contacto:hover {
-      color: #9428bb9c;
-}
+
 
 body footer form label {
       color: white;
@@ -321,8 +329,6 @@ body footer form textarea {
       }
 }
       
-      
-
 /*-----------MEDIA-DESCKTOP------*/
 @media (min-width: 1024px) {
       .img-header2{
