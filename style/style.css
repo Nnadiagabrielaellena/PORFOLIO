@@ -4,14 +4,16 @@
       justify-content: center;
       align-items: center;
 }
+
 html {
       scroll-behavior: smooth;
 }
+
 /*-HEADER  ENCABEZADO---*/
 body {
-margin: 0;
-padding: 0;
-margin-top: 2rem;
+      margin: 0;
+      padding: 0;
+      margin-top: 2rem;
       width: 100vw;
       font-size: 0.8rem;
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
@@ -21,51 +23,13 @@ margin-top: 2rem;
 }
 
 body header .cont-header {
-font-family: Playfair Display;
+      font-family: Playfair Display;
       align-items: center;
       font-size: 1rem;
       font-weight: bold;
       color: rgb(8, 8, 8);
       position: relative;
-      }
-
-body header .cont-img-header {
-      display: flex;
-      justify-content: space-around;
-      
 }
-
-body header.cont-img-header .img-header {
-      height: 19rem;
-      width: 19rem;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      
-}
-.img-logo {
-      height: 19rem;
-      width: 19rem;
-      display: none;
-      box-shadow: 8px 11px 43px 27px rgba(0,0,0,0.6) inset;
-}
-.img-header2{
-      height: 19rem;
-      width: 19rem;
-      display: none;
-      box-shadow: 8px 11px 43px 27px rgba(0,0,0,0.6);
-     
-}
-
-body header .cont-header .not-header {
-      color: yellow;
-      font-size: 1.3rem;
-      z-index: 6;
-      position: absolute;
-      top: 16.75rem;
-      left: 6.25rem;
-}
-
 
 body header h1 {
       position: absolute;
@@ -77,10 +41,47 @@ body header h1 {
       text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.67);
 }
 
+body header .cont-header .not-header {
+      color: yellow;
+      font-size: 1.3rem;
+      z-index: 6;
+      position: absolute;
+      top: 16.75rem;
+      left: 6.25rem;
+}
+
+body header .cont-img-header {
+      display: flex;
+      justify-content: space-around;
+
+}
+
+body header.cont-img-header .img-header {
+      height: 19rem;
+      width: 19rem;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+}
+
+.img-logo {
+      height: 19rem;
+      width: 19rem;
+      display: none;
+      box-shadow: 8px 11px 43px 27px rgba(0, 0, 0, 0.6) inset;
+}
+
+.img-header2 {
+      height: 19rem;
+      width: 19rem;
+      display: none;
+      box-shadow: 8px 11px 43px 27px rgba(0, 0, 0, 0.6);
+
+}
+
 body header h3 {
-      
       top: 2px;
-      
       color: white;
       font-size: 1rem;
       z-index: 4;
@@ -105,7 +106,7 @@ body nav button:hover {
 }
 
 /*-MAIN CAJA CONOCIMIENTOS----------*/
-body  h2 {
+body nav h2 {
       font-family: Spicy Rice;
       color: yellow;
       font-size: 1.8rem;
@@ -115,10 +116,6 @@ body  h2 {
       z-index: 3;
 }
 
-body main i {
-      font-size: 1.3rem;
-}
-
 body main .cont-caja-conoc {
 
       display: flex;
@@ -126,8 +123,6 @@ body main .cont-caja-conoc {
       justify-content: center;
       margin-top: 2.5rem;
       margin-bottom: 2.5rem;
-
-
 }
 
 body main .cont-caja-conoc .caja-conoc {
@@ -139,16 +134,18 @@ body main .cont-caja-conoc .caja-conoc {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
 }
 
 body main .cont-caja-conoc .caja-conoc .tit-conoc {
       font-size: 1rem;
 }
 
+body main i {
+      font-size: 1.3rem;
+}
+
 /*-MAIN CAJA TRABAJO----------*/
 body main .cont-trabajo {
-
       display: flex;
       margin-top: 1.87rem;
       margin-bottom: 1.87rem;
@@ -172,13 +169,11 @@ body main .cont-trabajo .e-commer {
 
 body main .cont-trabajo .pagina-eventos {
       background-image: url(./img/img-pagina-eventos.jpg);
-
 }
 
 body main .cont-trabajo .blog {
       background-image: url(./img/img-blog.jpg);
       border: 6px solid yellow;
-
 }
 
 body main .cont-trabajo .todo-app {
@@ -195,7 +190,6 @@ body main .cont-trabajo .responsive {
       background-image: url(./img/responsive.jpg);
       border: 6px solid yellow;
       background-size: cover;
-
 }
 
 /*--FOOTER- BOTONES-CONTACTO ------- -*/
@@ -204,37 +198,16 @@ body main .cont-trabajo .responsive {
 body footer .not-contacto {
       display: flex;
       justify-content: space-around;
-      
-
-
 }
 
 body footer .not-contacto .boton-contacto {
       font-size: 1.8rem;
       color: white;
-      
 }
+
 body footer .boton-contacto:hover {
       color: #9428bb9c;
       transform: scale(1.2);
-      
-}
-
-body footer form .boton-enviar{
-
-      border: none;
-      border-radius: 0.4rem;
-      height: 2rem;
-      width: 20%;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      box-shadow: 13px 16px 32px 0px rgba(0,0,0,0.75);
-}
-body footer form .boton-enviar:hover{
-      background-color: darkgrey;
-      font-weight: bold;
-      
-      
 
 }
 
@@ -247,7 +220,6 @@ body footer form {
 }
 
 body footer .not-formulario {
-
       font-size: 1.5rem;
       color: white;
       text-transform: none;
@@ -256,6 +228,7 @@ body footer .not-formulario {
       text-transform: capitalize;
 
 }
+
 body footer input:hover {
       height: 1, 56rem;
       color: black;
@@ -263,13 +236,12 @@ body footer input:hover {
       transition: all ease-in-out 0.5;
 }
 
-
-
 body footer form label {
       color: white;
-      font-family: plaifair display;
+
 }
-input{
+
+input {
       width: 70%;
 }
 
@@ -280,6 +252,20 @@ body footer form textarea {
 
 }
 
+body footer form .boton-enviar {
+      border: none;
+      border-radius: 0.4rem;
+      height: 2rem;
+      width: 20%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 13px 16px 32px 0px rgba(0, 0, 0, 0.75);
+}
+
+body footer form .boton-enviar:hover {
+      background-color: darkgrey;
+      font-weight: bold;
+}
 
 /*-----------MEDIA-TABLET------*/
 @media (min-width: 768px) {
@@ -291,7 +277,7 @@ body footer form textarea {
             font-size: 1.3rem;
       }
 
-      .img-logo{
+      .img-logo {
             display: block;
             height: 20rem;
             width: 20rem;
@@ -323,46 +309,53 @@ body footer form textarea {
       body footer form label {
             font-size: 1.2rem;
       }
-      body footer form textarea{
+
+      body footer form textarea {
             height: 10rem;
             width: 20rem;
       }
-      .cont-texarea{
+
+      body footer .cont-texarea {
             font-size: 1.3rem;
       }
 }
-      
+
 /*-----------MEDIA-DESCKTOP------*/
 @media (min-width: 1024px) {
-      .img-header2{
+      .img-header2 {
             display: block;
             height: 20rem;
             width: 20rem;
             background-size: cover;
       }
+
       body main .cont-caja-conoc .caja-conoc {
             height: 8.25rem;
             width: 8.25rem;
-
       }
 
       body main .cont-caja-conoc .caja-conoc .tit-conoc {
             font-size: 1.5rem;
       }
-      body footer .not-contacto i{
+
+      body footer .not-contacto i {
             font-size: 3rem;
       }
-      body footer form label{
+
+      body footer form label {
             font-size: 1.5rem;
       }
-      body footer form placeholder{
+
+      body footer form placeholder {
             font-size: 1rem;
       }
-      body footer form textarea{
+
+      body footer form textarea {
             height: 20rem;
             width: 30rem;
       }
-      body footer form .boton-enviar{
+
+      body footer form .boton-enviar {
             font-size: 1.5rem;
       }
 }
