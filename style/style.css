@@ -280,6 +280,10 @@ body footer form .boton-enviar:active {
       font-weight: bold;
 }
 
+ .cont-footer{
+      display: none;
+ }
+     
 /*-----------MEDIA-TABLET------*/
 @media (min-width: 768px) {
       body {
@@ -331,6 +335,20 @@ body footer form .boton-enviar:active {
       body footer .cont-texarea {
             font-size: 1.3rem;
       }
+      body footer .cont-footer {
+            display: flex;
+            justify-content: space-around;
+           height: 10rem; 
+           
+      }
+      body footer .cont-footer .not-fot{
+            color: aliceblue;
+            font-size: 1.2rem;
+            text-decoration: none;
+            margin-top: 1rem;
+            
+      }
+
 }
 
 /*-----------MEDIA-DESCKTOP------*/
@@ -338,7 +356,7 @@ body footer form .boton-enviar:active {
       body header h1{
             font-size: 35px;
       }
-      .img-header2 {
+      body header .img-header2 {
             display: block;
             height: 20rem;
             width: 20rem;
