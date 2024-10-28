@@ -46,12 +46,12 @@ body header h1 {
 
 body header .cont-header .not-header {
       color: yellow;
-    font-size: 1.3rem;
-    z-index: 6;
-    position: absolute;
-    top: 15.75rem;
-    left: 4.25rem;
-    display: block;
+      font-size: 1.3rem;
+      z-index: 6;
+      position: absolute;
+      top: 15.75rem;
+      left: 4.25rem;
+      display: block;
 }
 
 body header .cont-img-header {
@@ -90,19 +90,20 @@ body header h3 {
       font-size: 1rem;
       z-index: 4;
       text-transform: none;
+    
+      
 }
 
 /*-NAV-BOTONES---*/
 
 body nav button {
       height: 3rem;
-      width: 100%;
-      background-image: url(https://i.pinimg.com/564x/0b/07/2f/0b072f4315c08b61b855d2557d559100.jpg);
+     background-image: url(https://i.pinimg.com/564x/0b/07/2f/0b072f4315c08b61b855d2557d559100.jpg);
       font-size: 1rem;
       color: white;
       text-transform: capitalize;
-
-}
+      width: 100%;
+      }
 
 body nav button:hover {
       border: 4px solid yellow;
@@ -118,10 +119,10 @@ body h2 {
       padding-top: 1.25rem;
       text-shadow: 2px 4px 2px rgb(0 0 0);
       z-index: 3;
+      
 }
 
 body main .cont-caja-conoc {
-
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -139,6 +140,7 @@ body main .cont-caja-conoc .caja-conoc {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      
 }
 
 body main .cont-caja-conoc .caja-conoc .tit-conoc {
@@ -152,12 +154,14 @@ body main i {
 /*-MAIN CAJA TRABAJO----------*/
 body main .cont-trabajo {
       display: flex;
+      border: none;
       margin-top: 1.87rem;
       margin-bottom: 1.87rem;
       color: white;
       height: 9.37rem;
       width: 100%;
       box-shadow: 10px 10px 25px 8px rgba(0, 0, 0, 0.75);
+      width: 90%;
 }
 
 body main .not-trabajo {
@@ -170,7 +174,8 @@ body main .not-trabajo {
 body main .cont-trabajo .e-commer {
       background-image: url(./img/img-ecommer.jpg);
       border: 6px solid yellow;
-}
+
+text-decoration: none;}
 
 body main .cont-trabajo .pagina-eventos {
       background-image: url(./img/img-pagina-eventos.jpg);
@@ -198,8 +203,6 @@ body main .cont-trabajo .responsive {
 }
 
 /*--FOOTER- BOTONES-CONTACTO ------- -*/
-
-
 body footer .not-contacto {
       display: flex;
       justify-content: space-around;
@@ -213,8 +216,6 @@ body footer .not-contacto .boton-contacto {
 body footer .boton-contacto:hover {
       color: #9428bb9c;
       transform: scale(1.2);
-
-
 }
 
 /*--FOOTER- FORMULARIO------- -*/
@@ -231,8 +232,6 @@ body footer .not-formulario {
       text-transform: none;
       margin-top: 2rem;
       margin-bottom: 2rem;
-
-
 }
 
 
@@ -275,15 +274,16 @@ body footer form .boton-enviar:hover {
       background-color: darkgrey;
       font-weight: bold;
 }
+
 body footer form .boton-enviar:active {
       background-color: yellow;
       font-weight: bold;
 }
 
- .cont-footer{
+.cont-footer {
       display: none;
- }
-     
+}
+
 /*-----------MEDIA-TABLET------*/
 @media (min-width: 768px) {
       body {
@@ -318,9 +318,10 @@ body footer form .boton-enviar:active {
             height: 7.25rem;
             width: 7.25rem;
       }
-
+      
       body main .cont-trabajo {
             justify-content: space-around;
+           
       }
 
       body footer form label {
@@ -335,35 +336,39 @@ body footer form .boton-enviar:active {
       body footer .cont-texarea {
             font-size: 1.3rem;
       }
+
       body footer .cont-footer {
             display: flex;
             justify-content: space-around;
-           height: 10rem; 
-           
+            height: 10rem;
+
+
       }
-      body footer .cont-footer .not-fot{
+
+      body footer .cont-footer .not-fot {
             color: aliceblue;
             font-size: 1.2rem;
             text-decoration: none;
             margin-top: 1rem;
-            
-      }
 
+      }
 }
 
 /*-----------MEDIA-DESCKTOP------*/
 @media (min-width: 1024px) {
-      body header h1{
+      body header h1 {
             font-size: 35px;
       }
+
       body header .img-header2 {
             display: block;
             height: 20rem;
             width: 20rem;
             background-size: cover;
       }
-      body header .cont-header .not-header{
-       display: none;     
+
+      body header .cont-header .not-header {
+            display: none;
       }
 
       body main .cont-caja-conoc .caja-conoc {
@@ -374,7 +379,7 @@ body footer form .boton-enviar:active {
       body main .cont-caja-conoc .caja-conoc .tit-conoc {
             font-size: 1.5rem;
       }
-
+      
       body footer .not-contacto i {
             font-size: 3rem;
       }
