@@ -1,4 +1,8 @@
-.titulo {
+html {
+      scroll-behavior: smooth;
+}
+
+body .titulo {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -6,11 +10,7 @@
       margin-top: 4.2rem;
 }
 
-html {
-      scroll-behavior: smooth;
-}
-
-/*-HEADER  ENCABEZADO---*/
+/*-HEADER  ENCABEZADO-----------------------*/
 body {
       margin: 0;
       padding: 0;
@@ -21,7 +21,7 @@ body {
       font-family: Lato;
       text-transform: capitalize;
       position: relative;
-
+      font-family: Playfair Display;
 }
 
 body header .cont-header {
@@ -35,13 +35,13 @@ body header .cont-header {
 
 body header h1 {
       position: absolute;
-      left: 90px;
+      left: 70px;
       top: 0px;
       z-index: 5;
-      font-size: 1.5rem;
+      font-size: 3rem;
       color: white;
       text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.67);
-
+      font-family: Dancing Script;
 }
 
 body header .cont-header .not-header {
@@ -69,19 +69,18 @@ body header.cont-img-header .img-header {
 
 }
 
-.img-logo {
+body header .img-logo {
       height: 19rem;
       width: 19rem;
       display: none;
       box-shadow: 8px 11px 43px 27px rgba(0, 0, 0, 0.6) inset;
 }
 
-.img-header2 {
+body header .img-header2 {
       height: 19rem;
       width: 19rem;
       display: none;
       box-shadow: 8px 11px 43px 27px rgba(0, 0, 0, 0.6);
-
 }
 
 body header h3 {
@@ -90,12 +89,9 @@ body header h3 {
       font-size: 1rem;
       z-index: 4;
       text-transform: none;
-
-
 }
 
 /*-NAV-BOTONES---*/
-
 body nav button {
       height: 3rem;
       background-image: url(https://i.pinimg.com/564x/0b/07/2f/0b072f4315c08b61b855d2557d559100.jpg);
@@ -112,7 +108,7 @@ body nav button:hover {
 
 /*-MAIN CAJA CONOCIMIENTOS----------*/
 body h2 {
-      font-family: Spicy Rice;
+
       color: yellow;
       font-size: 1.8rem;
       font-weight: bold;
@@ -128,6 +124,7 @@ body main .cont-caja-conoc {
       justify-content: center;
       margin-top: 2.5rem;
       margin-bottom: 2.5rem;
+      animation: mover 10s forwards;
 }
 
 
@@ -142,10 +139,19 @@ body main .cont-caja-conoc .caja-conoc {
       align-items: center;
       transition: transform 1s;
       perspective: 1000px;
-
 }
 
-.caja-conoc:hover {
+@keyframes mover {
+      0% {
+            transform: translateX(0);
+      }
+
+      25% {
+            transform: translateX(-100%);
+      }
+}
+
+body main .cont-caja-conoc .caja-conoc:hover {
       transform: rotateY(360deg);
 }
 
@@ -175,6 +181,12 @@ body main .not-trabajo {
       background-position: center;
       height: 9.37rem;
       width: 50%;
+      font-size: 0.8rem;
+
+}
+
+body main .cont-trabajo a {
+      text-decoration: none;
 }
 
 body main .cont-trabajo .e-commer {
@@ -287,7 +299,7 @@ body footer form .boton-enviar:active {
       font-weight: bold;
 }
 
-.cont-footer {
+body footer .cont-footer {
       display: none;
 }
 
@@ -301,7 +313,7 @@ body footer form .boton-enviar:active {
             font-size: 1.3rem;
       }
 
-      .img-logo {
+      body header .img-logo {
             display: block;
             height: 20rem;
             width: 20rem;
@@ -348,8 +360,6 @@ body footer form .boton-enviar:active {
             display: flex;
             justify-content: space-around;
             height: 10rem;
-
-
       }
 
       body footer .cont-footer .not-fot {
