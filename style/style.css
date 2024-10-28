@@ -1,8 +1,9 @@
-.centrado {
+.titulo {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-top: 4.2rem;
 }
 
 html {
@@ -19,6 +20,7 @@ body {
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
       font-family: Lato;
       text-transform: capitalize;
+      position: relative;
 
 }
 
@@ -34,20 +36,22 @@ body header .cont-header {
 body header h1 {
       position: absolute;
       left: 90px;
-      top: 20px;
+      top: 0px;
       z-index: 5;
       font-size: 1.5rem;
       color: white;
       text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.67);
+
 }
 
 body header .cont-header .not-header {
       color: yellow;
-      font-size: 1.3rem;
-      z-index: 6;
-      position: absolute;
-      top: 16.75rem;
-      left: 6.25rem;
+    font-size: 1.3rem;
+    z-index: 6;
+    position: absolute;
+    top: 15.75rem;
+    left: 4.25rem;
+    display: block;
 }
 
 body header .cont-img-header {
@@ -106,7 +110,7 @@ body nav button:hover {
 }
 
 /*-MAIN CAJA CONOCIMIENTOS----------*/
-body nav h2 {
+body h2 {
       font-family: Spicy Rice;
       color: yellow;
       font-size: 1.8rem;
@@ -124,6 +128,7 @@ body main .cont-caja-conoc {
       margin-top: 2.5rem;
       margin-bottom: 2.5rem;
 }
+
 
 body main .cont-caja-conoc .caja-conoc {
       height: 6.25rem;
@@ -209,6 +214,7 @@ body footer .boton-contacto:hover {
       color: #9428bb9c;
       transform: scale(1.2);
 
+
 }
 
 /*--FOOTER- FORMULARIO------- -*/
@@ -225,12 +231,14 @@ body footer .not-formulario {
       text-transform: none;
       margin-top: 2rem;
       margin-bottom: 2rem;
-      text-transform: capitalize;
+
 
 }
 
+
+
 body footer input:hover {
-      height: 1, 56rem;
+      height: 1.56rem;
       color: black;
       background-color: yellow;
       transition: all ease-in-out 0.5;
@@ -260,10 +268,15 @@ body footer form .boton-enviar {
       margin-top: 1rem;
       margin-bottom: 1rem;
       box-shadow: 13px 16px 32px 0px rgba(0, 0, 0, 0.75);
+      transition: background-color 0.3s;
 }
 
 body footer form .boton-enviar:hover {
       background-color: darkgrey;
+      font-weight: bold;
+}
+body footer form .boton-enviar:active {
+      background-color: yellow;
       font-weight: bold;
 }
 
@@ -322,11 +335,17 @@ body footer form .boton-enviar:hover {
 
 /*-----------MEDIA-DESCKTOP------*/
 @media (min-width: 1024px) {
+      body header h1{
+            font-size: 35px;
+      }
       .img-header2 {
             display: block;
             height: 20rem;
             width: 20rem;
             background-size: cover;
+      }
+      body header .cont-header .not-header{
+       display: none;     
       }
 
       body main .cont-caja-conoc .caja-conoc {
@@ -341,7 +360,8 @@ body footer form .boton-enviar:hover {
       body footer .not-contacto i {
             font-size: 3rem;
       }
-      body footer .not-formulario{
+
+      body footer .not-formulario {
             font-size: 2rem;
       }
 
