@@ -14,14 +14,7 @@ body {
       font-family: Playfair Display;
 }
 
-body  .titulo {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-top: 4.2rem;
-      
-}
+
 /*-HEADER -----------------------*/
 body header .cont-header-fijo {
       top: 0;
@@ -104,6 +97,14 @@ body header h2{
       z-index: 3;
 
 }
+body header  .titulo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4.2rem;
+      
+}
 body header h3 {
       top: 2px;
       color: white;
@@ -115,6 +116,14 @@ body header h3 {
 /*-NAV-BOTONES---*/
 body nav {
       display: none;
+}
+body nav  .titulo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4.2rem;
+      
 }
 
 body nav button {
@@ -140,6 +149,14 @@ color: yellow;
 
 }
 /*-MAIN CAJA CONOCIMIENTOS----------*/
+body main .titulo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4.2rem;
+      
+}
 body main .cont-caja-conoc {
       display: flex;
       flex-wrap: wrap;
@@ -254,6 +271,15 @@ body main .cont-trabajo .responsive {
 }
 
 /*--FOOTER- BOTONES-CONTACTO ------- -*/
+body footer .titulo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4.2rem;
+      
+}
+
 body footer .not-contacto {
       display: flex;
       justify-content: space-around;
