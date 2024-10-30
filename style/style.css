@@ -33,8 +33,6 @@ body header .cont-header-fijo {
       display: flex;
       justify-content: space-around;
       box-shadow: 8px 11px 43px 27px rgba(0, 0, 0, 0.6) inset;
-
-
 }
 body header .cont-header-fijo .titulo-header-fijo {
       font-size: 0.7rem;
@@ -69,7 +67,6 @@ body header .cont-header .not-header {
       left: 4.25rem;
       display: block;
 }
-
 body header .cont-img-header {
       display: flex;
       justify-content: space-around;
@@ -107,7 +104,6 @@ body header h2{
       z-index: 3;
 
 }
-
 body header h3 {
       top: 2px;
       color: white;
@@ -134,11 +130,8 @@ body nav button:hover {
       border: 4px solid yellow;
 
 }
-
-
 body nav h2 {
-
-      color: yellow;
+color: yellow;
       font-size: 1.8rem;
       font-weight: bold;
       padding-top: 1.25rem;
@@ -291,9 +284,6 @@ body footer .not-formulario {
       margin-top: 2rem;
       margin-bottom: 2rem;
 }
-
-
-
 body footer input:hover {
       height: 1.56rem;
       color: black;
@@ -306,7 +296,7 @@ body footer form label {
 
 }
 
-input {
+body footer input {
       width: 70%;
 }
 
@@ -404,19 +394,7 @@ body footer .cont-footer {
             font-size: 1.3rem;
       }
 
-      body footer .cont-footer {
-            display: flex;
-            justify-content: space-around;
-            height: 10rem;
-      }
-
-      body footer .cont-footer .not-fot {
-            color: aliceblue;
-            font-size: 1.2rem;
-            text-decoration: none;
-            margin-top: 1rem;
-
-      }
+      
 }
 
 /*-----------MEDIA-DESCKTOP------*/
