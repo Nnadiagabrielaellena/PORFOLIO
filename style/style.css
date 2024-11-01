@@ -14,17 +14,14 @@ body {
       text-transform: capitalize;
       position: relative;
       
-}
-
-
-/*-HEADER -----------------------*/
+}/*-HEADER -----------------------*/
 body header .contenedor-header-fijo {
       top: 0;
       font-size: 0.5rem;
       width: 100%;
       height: 2rem;
       position: fixed;
-      z-index: 4;
+      z-index: 3;
       display: flex;
       justify-content: space-around;
       box-shadow: 8px 11px 43px 27px rgba(0, 0, 0, 0.6) inset;
@@ -48,20 +45,20 @@ body header .contenedor-perfil {
 
 body header h1 {
       position: absolute;
-      left: 7.5rem;
-      top: 0.6rem;
-      z-index: 5;
-      font-size: 1.5rem;
+      left: 6.5rem;
+      top: 0.4rem;
+      z-index: 2;
+      font-size: 2.5rem;
       color: white;
       text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.67);
-      font-family: lato;
+      font-family: Dancing Script;
       overflow: hidden;
 }
 
 body header .contenedor-perfil .titulo-perfil {
       color: yellow;
       font-size: 1.3rem;
-      z-index: 6;
+      z-index: 2;
       position: absolute;
       top: 15.75rem;
       left: 4.25rem;
@@ -117,7 +114,7 @@ body header h3 {
       top: 2px;
       color: white;
       font-size: 1rem;
-      z-index: 4;
+      z-index: 2;
       text-transform: none;
 }
 
@@ -137,7 +134,7 @@ body nav h2 {
       font-weight: bold;
       padding-top: 1.25rem;
       text-shadow: 2px 4px 2px rgb(0 0 0);
-      z-index: 3;
+      z-index: 2;
 }
 
 body nav button {
@@ -353,7 +350,7 @@ body footer form .contenedor-formulario2 {
 body footer form textarea {
       background-image: url(https://i.pinimg.com/474x/91/5b/4c/915b4c185226db8d87ae4f1a41ac614c.jpg);
       color: yellow;
-      font-family: plaifair display;
+      font-family: lato;
 
 }
 
