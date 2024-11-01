@@ -10,10 +10,10 @@ body {
       width: 100vw;
       font-size: 0.8rem;
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
-      font-family: Lato;
+      font-family: lato;
       text-transform: capitalize;
       position: relative;
-      font-family: Playfair Display;
+      
 }
 
 
@@ -37,22 +37,25 @@ body header .contenedor-header-fijo .titulo-header-fijo {
 }
 
 body header .contenedor-perfil {
-      font-family: Playfair Display;
+      font-family:Playfair Display;
       align-items: center;
       font-size: 1rem;
       font-weight: bold;
       color: rgb(8, 8, 8);
       position: relative;
+      overflow: hidden;
 }
+
 body header h1 {
       position: absolute;
-      left: 70px;
-      top: 0px;
+      left: 7.5rem;
+      top: 0.6rem;
       z-index: 5;
-      font-size: 3rem;
+      font-size: 1.5rem;
       color: white;
       text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.67);
-      font-family: Dancing Script;
+      font-family: lato;
+      overflow: hidden;
 }
 
 body header .contenedor-perfil .titulo-perfil {
@@ -63,6 +66,7 @@ body header .contenedor-perfil .titulo-perfil {
       top: 15.75rem;
       left: 4.25rem;
       display: block;
+      
 }
 
 body header .contenedor-imagen-perfil {
@@ -80,14 +84,14 @@ body header.contenedor-imagen-perfil .imagen-perfil {
 
 }
 
-body header .logo-perfil {
+body header .contenedor-imagen-perfil .logo-perfil {
       height: 19rem;
       width: 19rem;
       display: none;
       box-shadow: 8px 11px 43px 27px rgba(0, 0, 0, 0.6) inset;
 }
 
-body header .imagen-perfil2 {
+body header .contenedor-imagen-perfil .imagen-perfil2 {
       height: 19rem;
       width: 19rem;
       display: none;
@@ -117,7 +121,7 @@ body header h3 {
       text-transform: none;
 }
 
-/*-NAV-BOTONES---*/
+/*-NAV-BOTONES-----------------*/
 body nav {
       display: none;
 }
@@ -135,6 +139,7 @@ body nav h2 {
       text-shadow: 2px 4px 2px rgb(0 0 0);
       z-index: 3;
 }
+
 body nav button {
       height: 3rem;
       background-image: url(https://i.pinimg.com/564x/0b/07/2f/0b072f4315c08b61b855d2557d559100.jpg);
@@ -173,6 +178,7 @@ body main .contenedor-caja-conocimientos {
       margin-bottom: 2.5rem;
       animation: mover 10s forwards;
 }
+
 body main .contenedor-caja-conocimientos .caja-conocimientos {
       height: 6.25rem;
       width: 6.25rem;
@@ -242,7 +248,6 @@ body main .titulo-trabajo {
       height: 9.37rem;
       width: 50%;
       font-size: 0.8rem;
-
 }
 
 body main .contenedor-trabajo a {
@@ -252,8 +257,7 @@ body main .contenedor-trabajo a {
 body main .contenedor-trabajo .e-commer {
       background-image: url(./img/img-ecommer.jpg);
       border: 6px solid yellow;
-
-      text-decoration: none;
+text-decoration: none;
 }
 
 body main .contenedor-trabajo .pagina-eventos {
@@ -280,6 +284,7 @@ body main .contenedor-trabajo .responsive {
       border: 6px solid yellow;
       background-size: cover;
 }
+
 /*--FOOTER- BOTONES-CONTACTO ------- -*/
 body footer h2 {
       display: flex;
@@ -303,13 +308,8 @@ body footer .boton-contacto:hover {
       color: #9428bb9c;
       transform: scale(1.2);
 }
+
 /*--FOOTER- FORMULARIO------- -*/
-body footer form {
-      display: flex;
-      flex-direction: column;
-      align-items: end;
-      position: relative;
-}
 body footer .titulo-formulario {
       font-size: 1rem;
       color: white;
@@ -324,15 +324,15 @@ body footer form {
       justify-content: center;
       align-items: center;
       margin-top: 4.2rem;
-
-
 }
+
 body footer input:hover {
       height: 1.56rem;
       color: black;
       background-color: yellow;
       transition: all ease-in-out 0.5;
 }
+
 body footer form label {
       color: white;
 
@@ -341,6 +341,7 @@ body footer form label {
 body footer input {
       width: 70%;
 }
+
 body footer form .contenedor-formulario2 {
       display: flex;
       flex-direction: column;
@@ -380,11 +381,12 @@ body footer form .boton-enviar:active {
 body footer .cont-footer {
       display: none;
 }
+
 /*-----------MEDIA-TABLET------*/
 @media (min-width: 768px) {
       body {
             font-size: 0, 9rem;
-}
+      }
 
       body header .contenedor-header-fijo .titulo-header-fijo {
             font-size: 1.2rem;
@@ -394,7 +396,7 @@ body footer .cont-footer {
             font-size: 1.3rem;
       }
 
-      body header .logo-perfil {
+      body header .contenedor-imagen-perfil .logo-perfil {
             display: block;
             height: 20rem;
             width: 20rem;
@@ -443,13 +445,14 @@ body footer .cont-footer {
 
 
 }
+
 /*-----------MEDIA-DESCKTOP------*/
 @media (min-width: 1024px) {
       body header h1 {
             font-size: 35px;
       }
 
-      body header .imagen-perfil2 {
+      body header .contenedor-imagen-perfil .imagen-perfil2 {
             display: block;
             height: 20rem;
             width: 20rem;
