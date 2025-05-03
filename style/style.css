@@ -7,7 +7,6 @@ body {
       padding: 0;
       height: 175rem;
       margin-top: 2rem;
-      width: 100vw;
       font-size: 0.8rem;
       background-image: url(https://i.pinimg.com/564x/19/f9/ed/19f9ed7eaffa9ab5ff644b67c5ba00c3.jpg);
       font-family: lato;
@@ -43,7 +42,7 @@ body header .contenedor-perfil {
       overflow: hidden;
 }
 
-body header h1 {
+body header .h1 {
       position: absolute;
       left: 6.5rem;
       top: 0.4rem;
@@ -95,7 +94,7 @@ body header .contenedor-imagen-perfil .imagen-perfil2 {
       box-shadow: 8px 11px 43px 27px rgba(0, 0, 0, 0.6);
 }
 
-body header h2 {
+body header .h2 {
       color: yellow;
       font-size: 1.8rem;
       font-weight: bold;
